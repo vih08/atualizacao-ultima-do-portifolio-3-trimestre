@@ -73,6 +73,45 @@ li {
     padding: 20px 70px;
 }
 
+.projeto {
+    width: 32%;
+}
+.meio {
+    padding: 20px;
+}
+
+.trimestres {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.trimestre {
+    width: 32%;
+    min-width: 300px;
+}
+
 .projeto, .projeto2, .projeto3, .lista2 {
     box-sizing: border-box;
+}
+.anos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.ano {
+    width: 48%;
+}
+
+.trimestres {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.trimestre {
+    width: 32%;
+    min-width: 200px;
+    padding: 15px;
 }
